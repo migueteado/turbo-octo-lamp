@@ -24,6 +24,10 @@ For testing run `yarn test`.
 
 Next.js has great features like server side rendering and image optimization, has good integrations with TailwindCSS for styles, Jest for testing and can handle some minor backend logic like the one required for this project without any problem.
 
+### Why didn't you use the Next.js API feature or another backend engine like NestJS or Fastify?
+
+I did at first, but since I was already using the server-side rendering system from Next.js there was no point on making a call from the server to itself to fetch the data. It is considered a bad practice and Next.js documentation encourages us to not do that.
+
 ### Why is the config hardcoded instead of in an .env file?
 
 The variables we are using for this project are not considered sensitive information since everyone can access them with GitHub, and including and .env file saved in the repo is a bad practice.
