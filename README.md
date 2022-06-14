@@ -1,35 +1,32 @@
+# Turbo Octo Lamp
+
+A home task FULLTIME FORCE project.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Install the dependencies with `yarn install`.
+2. Run Dev server with `yarn dev`.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+To create the static folder run `yarn build`.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+For production run `yarn start`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+For testing run `yarn test`.
 
-## Learn More
+# FAQ
 
-To learn more about Next.js, take a look at the following resources:
+### Why did you choose Next.js for this project?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js has great features like server side rendering and image optimization, has good integrations with TailwindCSS for styles, Jest for testing and can handle some minor backend logic like the one required for this project without any problem.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Why is the config hardcoded instead of in an .env file?
 
-## Deploy on Vercel
+The variables we are using for this project are not considered senditive information since everyone can access them with GitHub and including and .env file saved in the repo is a bad practice.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Why are you not using credentials to connect with the GitHub API?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# turbo-octo-lamp
+It is not necessary when using the REST API to reach a public repository. It would require to use the .env file we are trying to avoid in the previous question.
