@@ -1,5 +1,5 @@
 .MainContent {
-  @apply container w-full max-w-5xl mx-auto px-6 mt-24;
+  @apply container w-full max-w-5xl mx-auto px-6 my-12 md:my-24;
 }
 
 .Title {
