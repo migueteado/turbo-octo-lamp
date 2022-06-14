@@ -1,0 +1,7 @@
+.MainContent {
+  @apply container w-full max-w-5xl mx-auto px-6 mt-24;
+}
+
+.Title {
+  @apply text-xl font-bold mb-6;
+}
