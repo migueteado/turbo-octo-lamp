@@ -1,0 +1,23 @@
+.Commit {
+  @apply grid grid-cols-3 py-4 px-6 border border-gray-800 rounded-xl mb-2;
+}
+
+.Author {
+  @apply flex flex-row items-center justify-start;
+}
+
+.AuthorImageContainer {
+  @apply h-16 w-16 overflow-hidden rounded-full mr-6;
+}
+
+.AuthorName {
+  @apply text-lg;
+}
+
+.CommitInfo {
+  @apply col-span-2;
+}
+
+.GithubLink {
+  @apply float-right;
+}
