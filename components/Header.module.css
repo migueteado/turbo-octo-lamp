@@ -1,0 +1,7 @@
+.Header {
+  @apply py-4 border-b border-gray-800 bg-gray-900 text-gray-200;
+}
+
+.HeaderContent {
+  @apply container mx-auto px-6;
+}
