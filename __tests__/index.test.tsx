@@ -5,7 +5,7 @@ import { getCommits, ListCommitsResponseType } from "../lib/commits"
 
 describe("Home", () => {
   it("check commits list", async () => {
-    const data1 = (await getCommits()) as ListCommitsResponseType
+    const data1 = (await getCommits(1)) as ListCommitsResponseType
     const expected = {
       props: {
         commits: data1,
