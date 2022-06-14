@@ -9,6 +9,29 @@ import styles from "../styles/Home.module.css"
 const Home: React.FC<{ commits: ListCommitsResponseType }> = ({ commits }) => {
   const { data } = commits
 
+  let content
+  if (data) {
+    content = (
+      <>
+        <h1 className={styles.Title}>Latest Commits</h1>
+        <div>
+          {data.map((commit, index) => (
+            <Commit key={index} commit={commit} />
+          ))}
+        </div>
+      </>
+    )
+  } else {
+    content = (
+      <>
+        <h1 className={styles.ErrorTitle}>Oops, there is something wrong.</h1>
+        <p className={styles.ErrorMessage}>
+          Unable to fetch content, please try again.
+        </p>
+      </>
+    )
+  }
+
   return (
     <div>
       <Head>
@@ -17,19 +40,13 @@ const Home: React.FC<{ commits: ListCommitsResponseType }> = ({ commits }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className={styles.MainContent}>
-        <h1 className={styles.Title}>Latest Commits</h1>
-        <div>
-          {data.map((commit, index) => (
-            <Commit key={index} commit={commit} />
-          ))}
-        </div>
-      </main>
+
+      <main className={styles.MainContent}>{content}</main>
     </div>
   )
 }
 
-export async function getServerSideProps(context: NextPageContext) {
+export async function getServerSideProps() {
   const commits = await getCommits()
 
   return {
