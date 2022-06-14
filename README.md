@@ -6,12 +6,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-1. Install the dependencies with `yarn install`.
-2. Run Dev server with `yarn dev`.
+1. Clone the repository to your local environment using your preferred method.
+2. Install the dependencies with `yarn install`.
+3. Run Dev server with `yarn dev`.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To create the static folder run `yarn build`.
+To create the static production-ready folder run `yarn build`.
 
 For production run `yarn start`.
 
@@ -25,7 +26,7 @@ Next.js has great features like server side rendering and image optimization, ha
 
 ### Why is the config hardcoded instead of in an .env file?
 
-The variables we are using for this project are not considered senditive information since everyone can access them with GitHub and including and .env file saved in the repo is a bad practice.
+The variables we are using for this project are not considered sensitive information since everyone can access them with GitHub, and including and .env file saved in the repo is a bad practice.
 
 ### Why are you not using credentials to connect with the GitHub API?
 
