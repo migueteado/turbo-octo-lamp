@@ -1,13 +1,13 @@
 .Commit {
-  @apply grid grid-cols-3 py-4 px-6 border border-gray-800 rounded-xl mb-2;
+  @apply relative grid grid-cols-1 md:grid-cols-3 py-4 px-6 border border-gray-800 rounded-xl mb-2 hover:bg-gray-800 transition-all;
 }
 
 .Author {
-  @apply flex flex-row items-center justify-start;
+  @apply flex flex-row items-center justify-start hover:underline transition-all mb-4 md:mb-0 pr-8;
 }
 
 .AuthorImageContainer {
-  @apply h-16 w-16 overflow-hidden rounded-full mr-6;
+  @apply h-12 w-12 overflow-hidden rounded-full mr-6;
 }
 
 .AuthorName {
@@ -15,9 +15,13 @@
 }
 
 .CommitInfo {
-  @apply col-span-2;
+  @apply col-span-1 md:col-span-2 flex items-center justify-between mb-4 md:mb-0;
 }
 
 .GithubLink {
-  @apply float-right;
+  @apply absolute top-4 right-6;
+}
+
+.Icon {
+  @apply h-4 w-4;
 }

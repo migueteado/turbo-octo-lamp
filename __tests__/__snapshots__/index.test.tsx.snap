@@ -1,0 +1,437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders commit list 1`] = `
+<div>
+  <div>
+    <div
+      class="Header"
+    >
+      <div
+        class="HeaderContent"
+      >
+        <div
+          class="Brand"
+        >
+          Turbo Octo Lamp
+        </div>
+      </div>
+    </div>
+    <main
+      class="MainContent"
+    >
+      <h1
+        class="Title"
+      >
+        Latest Commits
+      </h1>
+      <div>
+        <div
+          class="Commit"
+        >
+          <div
+            class="GithubLink"
+          >
+            <a
+              href="https://github.com/soymvillalobos/turbo-octo-lamp/commit/d9453db1952711963cbb68c37a04bef15959d6e3"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-up-right-from-square Icon"
+                data-icon="up-right-from-square"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM488 0H352c-12.94 0-24.62 7.797-29.56 19.75c-4.969 11.97-2.219 25.72 6.938 34.88L370.8 96L169.4 297.4c-12.5 12.5-12.5 32.75 0 45.25C175.6 348.9 183.8 352 192 352s16.38-3.125 22.62-9.375L416 141.3l41.38 41.38c9.156 9.141 22.88 11.84 34.88 6.938C504.2 184.6 512 172.9 512 160V24C512 10.74 501.3 0 488 0z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+          <a
+            href="https://github.com/soymvillalobos"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Author"
+            >
+              <div
+                class="AuthorImageContainer"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+                  />
+                  <img
+                    alt="profile image"
+                    data-nimg="responsive"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="AuthorName"
+              >
+                soymvillalobos
+              </div>
+            </div>
+          </a>
+          <div
+            class="CommitInfo"
+          >
+            <div
+              class="Message"
+            >
+              Merge pull request #1 from soymvillalobos/development
+
+Development
+            </div>
+          </div>
+        </div>
+        <div
+          class="Commit"
+        >
+          <div
+            class="GithubLink"
+          >
+            <a
+              href="https://github.com/soymvillalobos/turbo-octo-lamp/commit/e0f1442e9b0e2beb705deab9bb79973821d3919e"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-up-right-from-square Icon"
+                data-icon="up-right-from-square"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM488 0H352c-12.94 0-24.62 7.797-29.56 19.75c-4.969 11.97-2.219 25.72 6.938 34.88L370.8 96L169.4 297.4c-12.5 12.5-12.5 32.75 0 45.25C175.6 348.9 183.8 352 192 352s16.38-3.125 22.62-9.375L416 141.3l41.38 41.38c9.156 9.141 22.88 11.84 34.88 6.938C504.2 184.6 512 172.9 512 160V24C512 10.74 501.3 0 488 0z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+          <a
+            href="https://github.com/soymvillalobos"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Author"
+            >
+              <div
+                class="AuthorImageContainer"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+                  />
+                  <img
+                    alt="profile image"
+                    data-nimg="responsive"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="AuthorName"
+              >
+                soymvillalobos
+              </div>
+            </div>
+          </a>
+          <div
+            class="CommitInfo"
+          >
+            <div
+              class="Message"
+            >
+              💄 Page main styles update
+            </div>
+          </div>
+        </div>
+        <div
+          class="Commit"
+        >
+          <div
+            class="GithubLink"
+          >
+            <a
+              href="https://github.com/soymvillalobos/turbo-octo-lamp/commit/2d913dac124e9994bb9191782c5dfa6f1751e557"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-up-right-from-square Icon"
+                data-icon="up-right-from-square"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM488 0H352c-12.94 0-24.62 7.797-29.56 19.75c-4.969 11.97-2.219 25.72 6.938 34.88L370.8 96L169.4 297.4c-12.5 12.5-12.5 32.75 0 45.25C175.6 348.9 183.8 352 192 352s16.38-3.125 22.62-9.375L416 141.3l41.38 41.38c9.156 9.141 22.88 11.84 34.88 6.938C504.2 184.6 512 172.9 512 160V24C512 10.74 501.3 0 488 0z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+          <a
+            href="https://github.com/soymvillalobos"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Author"
+            >
+              <div
+                class="AuthorImageContainer"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+                  />
+                  <img
+                    alt="profile image"
+                    data-nimg="responsive"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="AuthorName"
+              >
+                soymvillalobos
+              </div>
+            </div>
+          </a>
+          <div
+            class="CommitInfo"
+          >
+            <div
+              class="Message"
+            >
+              🐛 Fixed image issue, added domain to next config
+            </div>
+          </div>
+        </div>
+        <div
+          class="Commit"
+        >
+          <div
+            class="GithubLink"
+          >
+            <a
+              href="https://github.com/soymvillalobos/turbo-octo-lamp/commit/b85afcc88e6d1243807479dd8ab7c66d6ee494ae"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-up-right-from-square Icon"
+                data-icon="up-right-from-square"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM488 0H352c-12.94 0-24.62 7.797-29.56 19.75c-4.969 11.97-2.219 25.72 6.938 34.88L370.8 96L169.4 297.4c-12.5 12.5-12.5 32.75 0 45.25C175.6 348.9 183.8 352 192 352s16.38-3.125 22.62-9.375L416 141.3l41.38 41.38c9.156 9.141 22.88 11.84 34.88 6.938C504.2 184.6 512 172.9 512 160V24C512 10.74 501.3 0 488 0z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+          <a
+            href="https://github.com/soymvillalobos"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Author"
+            >
+              <div
+                class="AuthorImageContainer"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+                  />
+                  <img
+                    alt="profile image"
+                    data-nimg="responsive"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="AuthorName"
+              >
+                soymvillalobos
+              </div>
+            </div>
+          </a>
+          <div
+            class="CommitInfo"
+          >
+            <div
+              class="Message"
+            >
+              ✨ Commit component initial layout
+            </div>
+          </div>
+        </div>
+        <div
+          class="Commit"
+        >
+          <div
+            class="GithubLink"
+          >
+            <a
+              href="https://github.com/soymvillalobos/turbo-octo-lamp/commit/9dc5a2400792b837fb4c4eb5f451f22e2eeae77c"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-up-right-from-square Icon"
+                data-icon="up-right-from-square"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM488 0H352c-12.94 0-24.62 7.797-29.56 19.75c-4.969 11.97-2.219 25.72 6.938 34.88L370.8 96L169.4 297.4c-12.5 12.5-12.5 32.75 0 45.25C175.6 348.9 183.8 352 192 352s16.38-3.125 22.62-9.375L416 141.3l41.38 41.38c9.156 9.141 22.88 11.84 34.88 6.938C504.2 184.6 512 172.9 512 160V24C512 10.74 501.3 0 488 0z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+          <a
+            href="https://github.com/soymvillalobos"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Author"
+            >
+              <div
+                class="AuthorImageContainer"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+                  />
+                  <img
+                    alt="profile image"
+                    data-nimg="responsive"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="AuthorName"
+              >
+                soymvillalobos
+              </div>
+            </div>
+          </a>
+          <div
+            class="CommitInfo"
+          >
+            <div
+              class="Message"
+            >
+              ⚡️ Moved github api logic to serversideprops request
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ButtonContainer"
+      >
+        <button
+          class="Button"
+        >
+          Load Older Commits
+        </button>
+      </div>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`Home renders error 1`] = `
+<div>
+  <div>
+    <div
+      class="Header"
+    >
+      <div
+        class="HeaderContent"
+      >
+        <div
+          class="Brand"
+        >
+          Turbo Octo Lamp
+        </div>
+      </div>
+    </div>
+    <main
+      class="MainContent"
+    >
+      <h1
+        class="ErrorTitle"
+      >
+        Oops, there is something wrong.
+      </h1>
+      <p
+        class="ErrorMessage"
+      >
+        Unable to fetch content, please try again.
+      </p>
+    </main>
+  </div>
+</div>
+`;
